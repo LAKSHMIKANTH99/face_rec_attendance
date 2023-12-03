@@ -6,7 +6,7 @@ from datetime import datetime
 import csv
 
 
-with open('known_faces.json', 'r') as file:
+with open('known_faces.json', 'r') as file: #known faces.json is your file with encodings of the dataset.
     known_faces = json.load(file)
 
 known_face_encodings = [np.array(entry["encoding"]) for entry in known_faces]
