@@ -7,3 +7,6 @@ This model runs well on python but you have to make sure certain packages are in
 of Intels . Because if you are in arm64 version of architecture you will end up in compatabilityissues .
 
   
+*Training more dataset will get you better results.
+
+* Credits to Adam Geitgey for this facial recognition API.
