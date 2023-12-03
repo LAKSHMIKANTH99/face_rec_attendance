@@ -18,7 +18,7 @@ def compute_face_encoding(image):
         return None
 
 
-dataset_path = 'pics'
+dataset_path = 'path to your images directory'
 
 known_faces = []
 
